@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-wordpress",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "packageManager": "pnpm@7.3.0",
+  "scripts": {
+    "start": "pnpm run dev",
+    "dev": "nuxi prepare & nuxi dev .playground",
+    "build": "nuxi build .playground",
+    "generate": "nuxi generate .playground",
+    "preview": "nuxi preview .playground",
+    "analyze": "nuxt analyze",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.28.0",
+    "nuxt": "^3.1.2",
+    "typescript": "^4.9.3"
+  }
+}
