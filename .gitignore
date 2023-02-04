@@ -1,20 +1,12 @@
 node_modules
-*.log
+*.iml
+.idea
+*.log*
 .nuxt
-nuxt.d.ts
-.output
-.env
-package-lock.json
-framework
-dist
+.vscode
 .DS_Store
-
-# Yarn
-.yarn/cache
-.yarn/*state*
-
-# Local History
-.history
-
-# VSCode
-.vscode/
+coverage
+dist
+sw.*
+.env
+.output

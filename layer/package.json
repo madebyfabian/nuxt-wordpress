@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-wordpress",
+  "type": "module",
+  "version": "0.1.0",
+  "packageManager": "pnpm@7.18.0",
+  "license": "MIT",
+  "main": "nuxt.config.ts",
+  "files": [
+    "components",
+    "composables",
+    "modules",
+    "nuxt.config.ts"
+  ],
+  "dependencies": {
+    "@nuxt/kit": "^3.1.2",
+    "defu": "^6.1.2",
+    "ufo": "^1.0.1",
+    "pathe": "^1.0.0"
+  }
+}

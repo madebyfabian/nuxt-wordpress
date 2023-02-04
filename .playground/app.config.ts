@@ -1,5 +1,2 @@
-export default defineAppConfig({
-  myProject: {
-    name: 'My amazing Nuxt layer'
-  }
-})
+import { defineAppConfig } from 'nuxt/app'
+export default defineAppConfig({})

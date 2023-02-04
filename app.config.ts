@@ -1,14 +1,14 @@
 export default defineAppConfig({
-  myProject: {
+  wordpress: {
     name: "Nuxt WordPress",
   },
-});
+})
 
 declare module "@nuxt/schema" {
   interface AppConfigInput {
-    myProject?: {
+    wordpress?: {
       /** Project name */
-      name?: string;
-    };
+      name?: string
+    }
   }
 }
