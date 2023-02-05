@@ -16,14 +16,11 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: 'wordpress',
   },
 
-  defaults: {
-    test: 'Default Value for test',
-  },
+  defaults: {},
 
   async setup(config, nuxt) {
     exposeModuleConfig('nuxt-wordpress', config)
 
-    // @ts-expect-error Works in Nuxt 3
     const { resolve } = createResolver(import.meta.url)
 
     nuxt.options.build.transpile.push(

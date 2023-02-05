@@ -1,3 +1,1 @@
-export interface WordpressOptions {
-  test: string
-}
+export interface WordpressOptions {}

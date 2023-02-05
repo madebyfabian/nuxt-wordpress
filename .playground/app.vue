@@ -1,8 +1,5 @@
 <template>
   <div>
-    example app.vue!
-    <div>
-      <NuxtPage />
-    </div>
+    <NuxtPage />
   </div>
 </template>

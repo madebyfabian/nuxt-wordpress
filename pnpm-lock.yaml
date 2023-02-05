@@ -15,11 +15,13 @@ importers:
   layer:
     specifiers:
       '@nuxt/kit': ^3.1.2
+      '@twicpics/components': ^0.15.1
       defu: ^6.1.2
       pathe: ^1.0.0
       ufo: ^1.0.1
     dependencies:
       '@nuxt/kit': 3.1.2
+      '@twicpics/components': 0.15.1
       defu: 6.1.2
       pathe: 1.1.0
       ufo: 1.0.1
@@ -1147,6 +1149,10 @@ packages:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
     engines: {node: '>=10.13.0'}
     dev: true
+
+  /@twicpics/components/0.15.1:
+    resolution: {integrity: sha512-N5Aupa5gPg+PxydBjJw37yzIu1/X719ot2AV9MdfFwctUN4Y/3KA4MAjSNPGqxM/UPc4qH3c/Vat9G6T68Gh/A==}
+    dev: false
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}

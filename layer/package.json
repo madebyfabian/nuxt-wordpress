@@ -13,8 +13,9 @@
   ],
   "dependencies": {
     "@nuxt/kit": "^3.1.2",
+    "@twicpics/components": "^0.15.1",
     "defu": "^6.1.2",
-    "ufo": "^1.0.1",
-    "pathe": "^1.0.0"
+    "pathe": "^1.0.0",
+    "ufo": "^1.0.1"
   }
 }
