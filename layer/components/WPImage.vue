@@ -23,8 +23,6 @@
 <script setup lang="ts">
   import { computed } from 'vue'
   import { joinURL, withLeadingSlash, withoutLeadingSlash, withoutTrailingSlash } from 'ufo'
-
-  // @ts-expect-error This is a local import.
   import { useRuntimeConfig } from '#app'
   const runtimeConfig = useRuntimeConfig()
 

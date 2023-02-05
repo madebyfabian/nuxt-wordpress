@@ -11,6 +11,10 @@ const config: WordpressRuntimeConfig = {
 }
 
 export default {
+  typescript: {
+    shim: false,
+  },
+
   // prettier-ignore
   modules: [
     resolve('./modules/nuxt-wordpress/module'),
