@@ -5,7 +5,7 @@ import type { WordpressRuntimeConfig } from './types'
 const { resolve } = createResolver(import.meta.url)
 
 const config: WordpressRuntimeConfig = {
-  test: process.env.NUXT_PUBLIC_TEST || 'layer default for test',
+  baseUrl: process.env.NUXT_PUBLIC_WORDPRESS_BASE_URL || 'https://example.com',
   twicpicsDomain: 'https://i.twic.pics',
   twicpicsPaths: [],
 }

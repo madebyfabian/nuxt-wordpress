@@ -9,9 +9,13 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       wordpress: {
-        test: 'omg it works ma!!!',
+        baseUrl: 'https://headlesstest-7dkcm5v4mp.live-website.com',
         twicpicsDomain: twicpicsDomain,
         twicpicsPaths: [
+          {
+            path: '/wordpress-madebyfabian/',
+            source: 'https://headlesstest-7dkcm5v4mp.live-website.com/',
+          },
           {
             path: '/gravatar/',
             source: 'https://secure.gravatar.com/',

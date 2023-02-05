@@ -9,4 +9,15 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  const { buildCdnUrl } = useWPImage()
+
+  onMounted(() => {
+    const newUrl = buildCdnUrl({
+      relativeUrl: '/wp-content/uploads/2023/01/gemali-martinez-is6MxPxm3uk-unsplash-edited.jpg',
+      builderPath: '/wordpress-madebyfabian/',
+    })
+
+    console.log({ newUrl })
+  })
+</script>

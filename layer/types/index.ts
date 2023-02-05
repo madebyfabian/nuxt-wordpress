@@ -7,7 +7,7 @@ type TwicpicsPathsConfigEntry = {
 }
 
 export type WordpressRuntimeConfig = {
-  test: string
+  baseUrl: string
   twicpicsDomain: string
   twicpicsPaths: TwicpicsPathsConfigEntry[]
 }
