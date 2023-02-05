@@ -61,7 +61,7 @@
   // We only need the path after the base URL.
   const pathConfig = twicpicsPaths?.find(
     pathConfig =>
-      withoutLeadingSlash(withoutTrailingSlash(pathConfig.path)) ===
+      withoutLeadingSlash(withoutTrailingSlash((pathConfig as any).path)) ===
       withoutLeadingSlash(withoutTrailingSlash(props.path))
   )
 
@@ -70,7 +70,7 @@
     if (!pathConfig) return undefined
 
     // WP Gives us the full URL, we only need the path.
-    const withoutHost = props.src.replace(pathConfig.source, '')
+    const withoutHost = props.src.replace((pathConfig as any).source, '')
     return withLeadingSlash(joinURL(props.path, withoutHost))
   })
 </script>
