@@ -1,73 +1,64 @@
-# Nuxt Layer Starter
+# Nuxt WordPress
 
-Create Nuxt extendable layer with this GitHub template.
+WordPress Headless for Nuxt 3
 
-## Setup
+# 🗓️ Nuxt WordPress
 
-Make sure to install the dependencies:
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
 
-```bash
-pnpm install
-```
+> WordPress Headless Layer for [Nuxt 3](https://nuxt.com). Allows you to quickly get started building websites with WordPress as a headless CMS.
 
-## Working on your theme
+> **Warning**
+> This layer is in **beta**. While the first integrations already work, it's WIP, so things can change anytime.
+> Please report any issues/feature requests you have.
 
-Your theme is at the root of this repository, it is exactly like a regular Nuxt project, except you can publish it on NPM.
+- [📦 &nbsp;NPM](https://www.npmjs.com/package/nuxt-wordpress)
 
-The `.playground` directory should help you on trying your theme during development.
+## Quick Setup
 
-Running `pnpm dev` will prepare and boot `.playground` directory, which imports your theme itself.
-
-## Distributing your theme
-
-Your Nuxt layer is shaped exactly the same as any other Nuxt project, except you can publish it on NPM.
-
-To do so, you only have to check if `files` in `package.json` are valid, then run:
+1. Add `nuxt-wordpress` dependency to your project
 
 ```bash
-npm publish --access public
+# Using pnpm
+pnpm add -D nuxt-wordpress
+
+# Using yarn
+yarn add --dev nuxt-wordpress
+
+# Using npm
+npm install --save-dev nuxt-wordpress
 ```
 
-Once done, your users will only have to run:
+2. Add `nuxt-wordpress` to the `extends` section of `nuxt.config.ts`
 
-```bash
-npm install --save your-theme
-```
+```js
+export default defineNuxtConfig({
+  extends: ['nuxt-wordpress'],
 
-Then add the dependency to their `extends` in `nuxt.config`:
-
-```ts
-defineNuxtConfig({
-  extends: 'your-theme'
+  runtimeConfig: {
+    wordpress: {
+      baseUrl: 'https://your-wordpress-site.com',
+      twicpicsDomain: twicpicsDomain,
+      twicpicsPaths: [
+        {
+          path: '/example/',
+          source: 'https://your-wordpress-site.com',
+        },
+      ],
+    },
+  },
 })
 ```
 
-## Development Server
+That's it! You can now use Nuxt WordPress in your Nuxt app ✨
 
-Start the development server on http://localhost:3000
+<!-- Badges -->
 
-```bash
-pnpm dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-pnpm build
-```
-
-Or statically generate it with:
-
-```bash
-pnpm generate
-```
-
-Locally preview production build:
-
-```bash
-pnpm preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-calendly/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-calendly
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-calendly.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt-calendly
+[license-src]: https://img.shields.io/npm/l/nuxt-calendly.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-calendly
