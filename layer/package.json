@@ -1,9 +1,19 @@
 {
   "name": "nuxt-wordpress",
-  "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@7.18.0",
+  "description": "WordPress Headless for Nuxt 3",
   "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madebyfabian/nuxt-wordpress"
+  },
+  "contributors": [
+    {
+      "name": "Fabian B. (@madebyfabian)"
+    }
+  ],
+  "packageManager": "pnpm@7.18.0",
   "main": "nuxt.config.ts",
   "files": [
     "components",
