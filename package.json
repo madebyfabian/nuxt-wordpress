@@ -7,7 +7,7 @@
     "start": "nuxi dev .playground",
     "test": "nuxi prepare .playground && npx vue-tsc --noEmit",
     "typecheck": "tsc --noEmit",
-    "release": "pnpm run test && changelogen --release && npm publish && git push --follow-tags"
+    "release": "pnpm run test && changelogen --release && bumpp layer/package.json --tag && git push && npm publish .layer/package.json"
   },
   "devDependencies": {
     "@types/node": "^16.18.1",
