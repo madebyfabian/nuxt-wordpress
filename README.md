@@ -52,9 +52,9 @@ That's it! You can now use Nuxt WordPress in your Nuxt app ✨
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-calendly/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt-calendly
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-calendly.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/nuxt-calendly
-[license-src]: https://img.shields.io/npm/l/nuxt-calendly.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-calendly
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-wordpress/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-wordpress
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-wordpress.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt-wordpress
+[license-src]: https://img.shields.io/npm/l/nuxt-wordpress.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-wordpress
