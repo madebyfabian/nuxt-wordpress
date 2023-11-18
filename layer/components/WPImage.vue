@@ -23,7 +23,7 @@
 <script setup lang="ts">
   import { computed } from 'vue'
   import { joinURL, withLeadingSlash, withoutLeadingSlash, withoutTrailingSlash } from 'ufo'
-  import { useRuntimeConfig } from '#app'
+  import { useRuntimeConfig } from '#imports'
   const runtimeConfig = useRuntimeConfig()
 
   interface Props {

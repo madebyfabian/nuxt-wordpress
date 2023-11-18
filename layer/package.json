@@ -22,10 +22,9 @@
     "nuxt.config.ts"
   ],
   "dependencies": {
-    "@nuxt/kit": "^3.1.2",
-    "@twicpics/components": "^0.15.1",
-    "defu": "^6.1.2",
-    "pathe": "^1.0.0",
-    "ufo": "^1.0.1"
+    "@nuxt/kit": "^3.8.1",
+    "@twicpics/components": "^0.25.1",
+    "defu": "^6.1.3",
+    "ufo": "^1.3.2"
   }
 }

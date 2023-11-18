@@ -1,7 +1,7 @@
-import { addTemplate, useNuxt } from '@nuxt/kit'
-import { resolve } from 'pathe'
+import { addTemplate, useNuxt, createResolver } from '@nuxt/kit'
 
 export function exposeModuleConfig(moduleName: string, config: Record<string, any>) {
+  const { resolve } = createResolver(import.meta.url)
   const nuxt = useNuxt()
   const jsExports = Object.entries(config)
     .map(([k, v]) => `export const ${k} = ${JSON.stringify(v)}`)

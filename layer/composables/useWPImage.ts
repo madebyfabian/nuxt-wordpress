@@ -1,5 +1,5 @@
 import { joinURL, withHttps, withoutLeadingSlash, withLeadingSlash } from 'ufo'
-import { useRuntimeConfig } from '#app'
+import { useRuntimeConfig } from '#imports'
 
 /**
  * Removes host and protocol from an asset url.

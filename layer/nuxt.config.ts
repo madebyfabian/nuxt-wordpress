@@ -1,7 +1,6 @@
 import { createResolver } from '@nuxt/kit'
 import type { WordpressRuntimeConfig } from './types'
 
-// @ts-expect-error Works in Nuxt 3
 const { resolve } = createResolver(import.meta.url)
 
 const config: WordpressRuntimeConfig = {
