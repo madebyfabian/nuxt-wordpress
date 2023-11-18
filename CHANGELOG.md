@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.1
+
+[compare changes](https://github.com/madebyfabian/nuxt-wordpress/compare/v1.0.0-beta.2...v0.0.1)
+
 ## v1.0.0-beta.0
 
 ### 🩹 Fixes

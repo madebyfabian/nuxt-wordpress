@@ -15,5 +15,6 @@
     "typescript": "^5.2.2",
     "changelogen": "^0.5.5",
     "bumpp": "^9.2.0"
-  }
+  },
+  "version": "0.0.1"
 }
