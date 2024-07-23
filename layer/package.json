@@ -1,6 +1,6 @@
 {
   "name": "nuxt-wordpress",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "WordPress Headless for Nuxt 3",
   "license": "MIT",
   "type": "module",
