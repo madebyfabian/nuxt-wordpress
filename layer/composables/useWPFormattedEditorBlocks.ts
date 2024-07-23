@@ -16,7 +16,7 @@ type Edge = {
  * @see https://faustjs.org/tutorial/get-started-with-wp-graphql-content-blocks `flatListToHierarchical` for more information on why this is needed.
  * @param edges Takes in an `edges` array, returns a new array with the `editorBlocks` property of each node transformed into a hierarchical structure.
  */
-export const useFormattedEditorBlocks = <CB extends BaseCoreBlock, T extends Edge>(edges: T[] | undefined) => {
+export const useWPFormattedEditorBlocks = <CB extends BaseCoreBlock, T extends Edge>(edges: T[] | undefined) => {
   try {
     if (!edges?.length) {
       throw new Error('[useFormttedEditorBlocks] No edges provided.')
