@@ -1,4 +1,10 @@
-# Nuxt WordPress
+# Nuxt WordPress [DEPRECATED]
+
+> [!IMPORTANT]  
+> I decided to deprecate this package due to shifting focus to other soluations (Directus mostly).
+> You can take a look at [WPNuxt](https://github.com/wpnuxt/wpnuxt-core) which looks very promising.
+
+---
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
